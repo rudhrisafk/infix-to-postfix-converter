@@ -12,17 +12,20 @@ To design and implement a C program that:
 Converts an infix expression into postfix form
 Uses stack operations for handling operators
 Demonstrates expression evaluation concepts
+
 🎯 Objectives
 Understand stack data structure
 Learn infix → postfix conversion
 Study operator precedence
 Improve programming logic in C
+
 🧠 Methodology
 Stack is implemented using arrays
 Expression is scanned from left to right
 Operands → directly added to output
 Operators → handled using precedence rules
 Stack stores operators temporarily
+
 ⚙️ Algorithm
 Infix to Postfix
 Initialize empty stack
@@ -35,6 +38,7 @@ Compare precedence
 Pop higher precedence operators
 Push current operator
 Pop remaining operators
+
 📊 Example Output
 Input: (3+5)*2  
 Output: 35+2*
@@ -46,10 +50,12 @@ Simple and easy to understand
 Efficient expression evaluation
 Useful in compiler design
 Demonstrates stack usage clearly
+
 ⚠️ Limitations
 Works only for basic expressions
 No error handling
 Limited input size
+
 📌 Conclusion
 
 This project helped in understanding how expressions are processed internally using stacks. It also improves knowledge of data structures and C programming.
