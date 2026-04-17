@@ -40,6 +40,7 @@ Input: (3+5)*2
 Output: 35+2*
 Input: A+B*C  
 Output: ABC*+
+
 ✅ Advantages
 Simple and easy to understand
 Efficient expression evaluation
